@@ -1,0 +1,344 @@
+#rosa
+{
+    background-color: rgb(255, 229, 245);
+    height: 95vh;
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.1fr;
+
+}
+#rosa button
+{
+    font-size: 1.8vw;
+    background-color: rgb(194, 167, 177);
+    padding: 2%;
+    border-radius: 20px;
+    width: 45%;
+    text-align: center;
+    color: black;
+    margin-left: 24%;
+    margin-top: 4%;
+    font-family: "Italiana", sans-serif;
+    cursor: pointer;
+}
+
+#rosa2
+{
+    background-color: rgb(201, 193, 199);
+    height: 75vh;
+    margin-top: 10%;
+    margin: 1%;
+    padding: 15px;
+}
+.fonte
+{
+    font-family: "Italiana", sans-serif;
+}
+#letra
+{
+    font-size: 3vw;
+    color: rgb(79, 39, 61);
+    margin-left: 25%;
+}
+#letra0
+{
+    font-size: 3vw;
+    color: rgb(79, 39, 61);
+    margin-left: 8%;
+}
+
+
+#letra2
+{
+    font-size: 100%;
+    color: rgb(139, 84, 120);
+    margin-left: 25%;
+}
+#habilidades
+{
+    color: rgb(79, 39, 61);
+    margin-left: 5%;
+    font-size: 100%;
+    margin-bottom: 2%;
+    padding-top: 6%;
+}
+#letra3
+{
+    font-size: 100%;
+    color: black;
+    margin-bottom: 1.5%;
+    margin-left: 5%;
+}
+
+#img {
+    width: 40%;
+}
+
+#img img {
+    width: 100%;
+}
+
+#rosa3
+{
+    background-color: rgb(222, 192, 208);
+    height: 80vh;
+    margin: 1%;
+}
+#rosa3 button
+{
+    background-color: rgb(218, 162, 192);
+    height: 3vh;
+    width: 10%;
+}
+.projetos
+{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 1%;
+}
+#rosa4
+{
+    margin-top: 3%;
+    background-color: rgb(71, 57, 65);
+    height: 33vh;
+    display: flex;
+    flex-direction: row;
+}
+#contato
+{
+    font-size: 1.5vw;
+    color: black;
+    font-family: "Italiana", sans-serif;
+}
+#contato2
+{
+    font-size: 1.5vw;
+    color: black;
+    font-family: "Italiana", sans-serif;
+    margin-top: 4%;
+}
+.espaco
+{
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+.margem
+{
+    margin-left: 5%;
+}
+#insta
+{
+    width: 6%;
+    margin-right: 19%;
+    margin-left: 20%;
+    margin-top: 4%;
+    font-size: 1.2vw;
+    color: rgb(209, 199, 206);
+}
+#linkedin
+{
+    width: 6%;
+    margin-right: 20%;
+    margin-top: 4%;
+    font-size: 1.2vw;
+    color: rgb(209, 199, 206);
+}
+#email
+{
+    width: 7%;
+    margin-top: 4%;
+    font-size: 1.2vw;
+    color: rgb(209, 199, 206);
+}
+body
+{
+    margin: 0;
+}
+#config
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+#img
+{
+    margin-top: 30px;
+}
+#rosa3 input
+{
+    background-color: #FFE4F4; 
+    height: 5vh;
+}
+#rosa3 input::placeholder
+{
+    color: black;
+    font-size: 1vw;
+
+}
+#inp
+{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 80px;
+    gap: 20px;
+}
+#nome
+{
+    font-family: "Italiana", sans-serif;
+}
+
+.divisao2
+{
+    padding-top: 2%;
+}
+#foto
+{
+    background-color: rgb(255, 255, 255);
+    padding: 12vh;
+    border-radius: 100%;
+    text-align: center;
+    height: 10%;
+    width: 10%;
+}
+#ftConteiner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#organizacao
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.switch 
+{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch input 
+{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider 
+{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before 
+{
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  input:checked + .slider 
+{
+    background-color: #f1aad1;
+}
+  input:focus + .slider 
+{
+    box-shadow: 0 0 1px #f1aad1;
+}
+  input:checked + .slider:before 
+{
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  .slider.round 
+{
+    border-radius: 34px;
+}
+  .slider.round:before 
+{
+    border-radius: 50%;
+}
+  body 
+{
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+  .dark-mode 
+{
+    background-color: black;
+    color: white;
+}
+  #mudar
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+  .dark-mode body
+{
+    background-color: black;
+    color: white;
+}
+
+#rosa4 div {
+    position: relative; /* Para garantir que o pseudo-elemento posicione corretamente */
+    cursor: pointer; /* Indica que é interativo */
+}
+
+#rosa4 div:hover {
+    color: #ffffff; /* Cor do texto quando em hover */
+}
+
+#rosa4 div::after {
+    content: ''; /* Cria um pseudo-elemento vazio */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Alinha na parte inferior do texto */
+    height: 2px; /* Altura do sublinhado */
+    background-color: #ffffff; /* Cor do sublinhado */
+    transform: scaleX(0); /* Inicia invisível */
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+#rosa4 div:hover::after {
+    transform: scaleX(1); /* Aplica o efeito de sublinhado */
+}
+
+@media screen and (max-width: 1000px) {
+    #rosa {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #ftConteiner {
+        display: none;
+    }
+
+    #rosa2 {
+        height: auto;
+    }
+}
